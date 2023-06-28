@@ -102,4 +102,4 @@ To modify the feature genes in the 'ls' function in the model.py file, you can f
 1. Open the model.py file in a text editor or integrated development environment (IDE).
 2. Locate the 'ls' function within the file.
 3. Identify the feature genes that you want to modify. These may be variables, parameters, or other elements that affect the behavior of the function.
-4. Save the modified file.
+4. Save the model.py.

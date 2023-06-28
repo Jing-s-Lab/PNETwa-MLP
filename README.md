@@ -18,7 +18,7 @@ In this study, we propose a novel approach that combines the incorporation of bi
 By incorporating the relationships between genes and pathways from bioinformatics into PNETwa, we are able to extract feature genes related to prostate cancer metastasis from whole-genome sequencing data. These feature genes are then inputted into the MLP to achieve the prediction of prostate cancer metastasis. Our method achieves an AUC of 0.90 and an F1 score of 0.84 in data from Western populations, and an AUC of 0.89 and an F1 score of 0.74 in mixed data from Western and Asian populations.
 
 Overall, this research contributes to the effective resolution of complex issues in primary and metastatic detection in clinical settings, opening up new possibilities in this field.
-
+![image](https://github.com/Jing-s-Lab/PNETwa-MLP/blob/main/figure.png)
 # Install model
 ## Step 1
 Create a PNETwa environment：(ubuntu)

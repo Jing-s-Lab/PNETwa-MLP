@@ -68,16 +68,21 @@ To extract the contribution magnitude of genes (coef_combined column) from 'node
 Here is an example Python code snippet that demonstrates how to extract the values from the "coef_combined" column using the pandas library:
 
 ```python
+# Import the pandas library
 import pandas as pd
 
 # Load the CSV file into a pandas DataFrame
 df = pd.read_csv("node_importance_graph_adjusted.csv")
 
-# Extract the values from the "coef_combined" column
-coef_combined_values = df["coef_combined"].values
+# Filter rows where the 'layer' column has a value of 1
+filtered_df = df[df["layer"] == 1]
 
-# Print the values
-print(coef_combined_values)
+# Sort the DataFrame based on the 'coef_combined' column in descending order
+sorted_df = filtered_df.sort_values("coef_combined", ascending=False)
+
+# Print the sorted DataFrame
+print(sorted_df)
+
 ```
 ## Step 5
 Activate the MLP environment:

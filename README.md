@@ -19,7 +19,7 @@ By incorporating the relationships between genes and pathways from bioinformatic
 
 Overall, this research contributes to the effective resolution of complex issues in primary and metastatic detection in clinical settings, opening up new possibilities in this field.
 
-<img src="https://github.com/Jing-s-Lab/PNETwa-MLP/raw/main/figure.png" alt="figure" width="50%" height="50%">
+<img src="https://github.com/Jing-s-Lab/PNETwa-MLP/raw/main/model.png" alt="figure" width="70%" height="70%">
 
 # Install model
 ## Step 1

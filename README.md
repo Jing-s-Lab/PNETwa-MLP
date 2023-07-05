@@ -19,7 +19,7 @@ We used PNETwa to extract 18 signature genes associated with prostate cancer met
 
 Overall, this research contributes to the effective resolution of complex issues in primary and metastatic detection in clinical settings, opening up new possibilities in this field.
 
-<img src="https://github.com/Jing-s-Lab/PNETwa-MLP/raw/main/model.png" alt="figure" width="70%" height="70%">
+<img src="https://github.com/Jing-s-Lab/PNETwa-MLP/raw/main/model.png" alt="figure" width="90%" height="90%">
 
 # Install model
 ## Step 1

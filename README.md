@@ -11,6 +11,7 @@
   - [Step 4](#step-4)
   - [Step 5](#step-5)
   - [Step 6](#step-6)
+  - [Step 7](#step-7)
 
 # Introduction
 In this study, we propose a novel approach that combines the incorporation of biological information with a Graph Neural Network called P-NET and an MLP. we integrated multiple datasets from Chinese and Western prostate cancer patients, a total of 1360 whole exome/genome alteration data for training and testing, and a set of 115 patients' data as an external validation dataset. We used mixed Chinese and Western data to train a P-NET (hereinafter referred to as PNETwa).PNETwa is a type of Graph Neural Network that possesses the ability to learn node-level and graph-level representations while considering the topological relationships between nodes. The MLP, on the other hand, is a commonly used feedforward neural network model known for its powerful nonlinear modeling capabilities. Together, they can learn more comprehensive representations of global features from the node-level or graph-level representations extracted by the GNN.
@@ -103,3 +104,9 @@ To modify the feature genes in the 'ls' function in the model.py file, you can f
 2. Locate the 'ls' function within the file.
 3. Identify the feature genes that you want to modify. These may be variables, parameters, or other elements that affect the behavior of the function.
 4. Save the model.py.
+## Step 7
+Local deployment of webui
+```bash
+cd ./web
+python web.py
+```
